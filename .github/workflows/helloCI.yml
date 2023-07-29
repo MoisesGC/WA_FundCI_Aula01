@@ -1,0 +1,12 @@
+name: Hello Flow
+on: 
+  workflow_dispatch
+jobs:
+  first_job:
+    runs-on: 
+      ubuntu-latest
+    steps: 
+      - name: Diga Ola
+        run: echo "Hello Turma do Fundamentos de CI"
+      - name: Diga Valeu
+        run: echo "Valeu falou!" 
